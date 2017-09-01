@@ -160,6 +160,8 @@ label4 = shapes.LineLabel('', 70,(x[16]-0.4*PadLen,y[16]+2*PadLen),layer=2)
 label4.add_text('Pin 18','romant')
 TopCell.add(label4)
 
+mkr1 = shapes.Rectangle((-AlignMw/2,-AlignML/2),(-AlignMw/2,-AlignML/2),layer=1)
+
 #### Add cells to layout ####
 Wg_layout = core.Layout('WgLib')
 Wg_layout.add(TopCell)
